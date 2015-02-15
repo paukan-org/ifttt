@@ -1,0 +1,12 @@
+{
+    "id": "ifttt",
+    "connections": ["server"],
+    "port": 2001,
+    "type": "proxy",
+    "rpc": {
+        "listen": 2000,
+        "user": "paukan.control@gmail.com",
+        "password": "hw2CDn01B8yGXQY",
+        "homepage": "https://bitbucket.org/vkfont/paukan-ifttt"
+    }
+}

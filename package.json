@@ -1,0 +1,26 @@
+{
+  "name": "paukan-ifttt",
+  "version": "0.0.1",
+  "description": "Wrapper under ifttt.com - receive events from this service and translate to automation system",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:paukan-org/ifttt.git"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "eventemitter2": "^0.4.14",
+    "express": "^4.10.4",
+    "express-xml-bodyparser": "0.0.4",
+    "lodash-node": "^2.4.1",
+    "paukan-core": "*"
+  },
+  "devDependencies": {
+      "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --bail"
+  },
+  "homepage": "https://github.com/paukan-org/ifttt",
+  "author": "Andrey Afoninskiy <vkfont@gmail.com>",
+  "license": "Apache"
+}
